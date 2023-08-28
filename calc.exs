@@ -107,7 +107,6 @@ end
 # ]
 
 # Последовательный вывод на экран
-  # Calc.quadrocalc()
 
   Calc.conjuction(Calc.param)
   Calc.disjuction(Calc.param)

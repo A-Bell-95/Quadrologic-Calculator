@@ -1,7 +1,5 @@
 defmodule Calc do
 
-  def flag(), do: :rand.uniform(3)
-
   def param() do
 
     #  Для запуска программы введите значение операторов, которые соответсвуют ниже

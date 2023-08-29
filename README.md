@@ -1,7 +1,7 @@
 # Quadrologic-Calculator
-Calculator of Quadrologic. Using 2 operands and random flag. 
+Calculator of Quadrologic. Counting with 2 operands and random flag. 
 
-Using Erlang :random and Go Math/rand library
+Use Erlang :random and Go Math/rand library
 
 This calucalator have 3 logic function:
 Conjuction, Disjunction and Implication 

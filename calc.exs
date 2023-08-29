@@ -1,20 +1,10 @@
 defmodule Calc do
 
-  def param() do
+  def rand_flag(), do: :rand.uniform(3)
 
-    #  Для запуска программы введите значение операторов, которые соответсвуют ниже
-    #  "PO" = 0 , "AV" = 1, "NE" = 2, "UN" = 3
+  def conjuction({oper1, oper2}, flag) do
 
-    op1 = 1
-    op2 = 2
-    flag = :rand.uniform(3)
-
-    result = {flag, op1, op2}
-    result |> IO.inspect()
-  end
-
-  def conjuction({flag, oper1, oper2}) do
-
+    IO.puts("Random flag = #{flag}")
     IO.puts("Result of conjuction: ")
 
     case flag do
@@ -40,8 +30,9 @@ defmodule Calc do
     end
   end
 
-  def disjuction({flag, oper1, oper2}) do
+  def disjuction({oper1, oper2}, flag) do
 
+    IO.puts("Random flag = #{flag}")
     IO.puts("Result of disjuction: ")
 
     case flag do
@@ -67,8 +58,9 @@ defmodule Calc do
     end
   end
 
-  def implication({flag, oper1, oper2}) do
+  def implication({oper1, oper2}, flag) do
 
+    IO.puts("Random flag = #{flag}")
     IO.puts("Result of implication: ")
 
     case flag do
@@ -106,6 +98,9 @@ end
 
 # Последовательный вывод на экран
 
-  Calc.conjuction(Calc.param)
-  Calc.disjuction(Calc.param)
-  Calc.implication(Calc.param)
+# Для запуска программы введите значение операторов в кортеж {}, которые соответсвуют ниже
+    #  "PO" = 0 , "AV" = 1, "NE" = 2, "UN" = 3
+
+  {1,2} |> Calc.conjuction(Calc.rand_flag)
+  {1,2} |> Calc.disjuction(Calc.rand_flag)
+  {1,2} |> Calc.implication(Calc.rand_flag)

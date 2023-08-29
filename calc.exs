@@ -25,8 +25,6 @@ defmodule Calc do
 			            {"AV", "AV", "NE", "UN"},
 			            {"UN", "UN", "UN", "UN"}}
                   elem( elem(tup,oper1), oper2) |> IO.inspect()
-
-      _ -> IO.puts("Oops, Flag is not right!")
     end
   end
 
@@ -54,7 +52,6 @@ defmodule Calc do
 			            {"PO", "AV", "UN", "UN"}}
                   elem( elem(tup,oper1), oper2) |> IO.inspect()
 
-      _ -> IO.puts("Oops, Flag is not right!")
     end
   end
 
@@ -81,8 +78,6 @@ defmodule Calc do
 			            {"AV", "NE", "PO", "UN"},
 			            {"UN", "UN", "UN", "UN"}}
                   elem( elem(tup,oper1), oper2) |> IO.inspect()
-
-      _ -> IO.puts("Oops, Flag is not right!")
     end
   end
 

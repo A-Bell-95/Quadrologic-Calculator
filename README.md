@@ -7,6 +7,7 @@ This calucalator have 3 logic function:
 Conjuction, Disjunction and Implication 
 
 How to launch this project in Erlang.
+Download 2 file .erl and .beam
 
 1. Launch cd, erl Calc.erl
 2. Connect to calc module c(calc).

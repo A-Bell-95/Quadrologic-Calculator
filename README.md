@@ -10,7 +10,7 @@ How to launch this project in Erlang.
 
 1. Launch cd, erl Calc.erl
 2. Connect to calc module c(calc).
-3. Launch a randomizer FLag = calc:rand_flag().
+3. Launch a randomizer Flag = calc:rand_flag().
 4. Choose function (conjuction/disjuction/implimentation)
 5. calc:disjuction({oper1,oper2}, Flag).
 6. Finish! 

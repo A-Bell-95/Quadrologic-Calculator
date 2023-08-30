@@ -15,4 +15,4 @@ How to launch this project in Erlang.
 5. calc:disjuction({oper1,oper2}, Flag).
 6. Finish! 
 
-Idea by Pavel Zachesa.
+Idea by Pavel Zachesa. https://github.com/PavelZX
